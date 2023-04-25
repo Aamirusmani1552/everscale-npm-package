@@ -1,0 +1,32 @@
+{
+  "name": "flatqube-everscale-sdk",
+  "version": "1.0.0",
+  "description": "helps to interact with flatqube dex",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aamirusmani1552/everscale-npm-package.git"
+  },
+  "keywords": [
+    "Everscale",
+    "flatqube",
+    "DEX"
+  ],
+  "author": "Aamir usmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aamirusmani1552/everscale-npm-package/issues"
+  },
+  "homepage": "https://github.com/Aamirusmani1552/everscale-npm-package#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}

@@ -1,3 +1,1 @@
-function hello(name: string) {
-  return "hello";
-}
+export class FlatQubeSDK {}

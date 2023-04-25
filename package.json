@@ -24,9 +24,15 @@
   },
   "homepage": "https://github.com/Aamirusmani1552/everscale-npm-package#readme",
   "devDependencies": {
+    "everdev": "^1.6.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@eversdk/core": "^1.42.1",
+    "@eversdk/lib-node": "^1.42.1"
+  }
 }
